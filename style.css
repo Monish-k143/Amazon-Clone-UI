@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navbar .nav{
+    flex: 1;
+    flex-basis: 150px;
+}
+
+/* Box 1 */
+.nav-logo{
+    height: 40px;
+}
+
+.logo{
+    height: 40px;
+    width: 114px;
+}
+
+/* Box border hover */
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* Box 2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-icon{
+    display:flex;
+    
+    width: 88px;
+}
+
+.add-second{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+/* Box 3 */
+.nav-search{
+    display: flex;
+    width: 633px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: orange;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: lightgrey;
+}
+
+.search-input{
+    width: 538px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-button{
+    width: 45px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Box 4 */
+.flag{
+    height: 16px;
+    width: 21px;
+}
+
+.nav-first{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-lang{
+    display: flex;
+}
+
+/* Box 5 & 6 */
+.nav-return{
+    width: 74px;
+}
+
+span{
+    font-size: 0.75rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Box 7 */
+.cart-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Navbar bottom*/
+.nav-bottom{
+    display: flex;
+    height: 39px;
+    background-color: #232F3E;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.navb-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+    margin-left: 20px;
+}
+
+/* Slider */
+.header-slider ul{
+    display: flex;
+}
+
+.header-slider i{
+    position: absolute;
+    top: 35%;
+    color: #0000007b;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.control_next{
+    right: 0;
+}
+
+.header-img{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+/* box row 1 */
+.box-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.header-box{
+    margin-top: -23vw;
+}
+
+/* content per card */
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    width: 275px;
+    height: 335px;
+    padding: 15px 20px;
+    z-index: 1;
+}
+
+.box-col img{
+    height: 255px;
+    padding-bottom: 15px;
+}
+
+.box-col h3{
+    padding-bottom: 10px;
+}
+
+.box-col a{
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+    align-items: end;
+}
+
+/* Images inside the box */
+.grid img{
+    height: 100px;
+    width: 130px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 100px 40px 100px;
+    justify-content: space-between;
+}
+
+.grid p{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+/* Products slider*/
+.product-slider{
+    background-color: white;
+    margin: 0 20px;
+    padding: 20px 20px 5px 20px;
+    
+}
+
+.products{
+    display: flex;
+    padding: 10px 0;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.products img{
+    height: 200px;
+    width: 180px;
+}
+
+/* footer */
+.footer{
+    margin-top: 20px;
+}
+
+.panel1{
+    background-color: #37475a;
+    height: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  white;
+}
+
+.panel2{
+    background-color: #232F3E;
+    color:  white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+}
+
+.panel2 div p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.panel2 div ul a{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.panel3{
+    height: 80px;
+    background-color: #131A22;
+    color: white;
+    font-size: 11px;
+}
+
+.panel-p1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.panel-p2{
+    text-align: center;
+}
